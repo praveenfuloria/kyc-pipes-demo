@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Kyc } from './kyc/kyc';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, Kyc],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
